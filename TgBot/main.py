@@ -35,6 +35,10 @@ async def message_handler(message: types.Message):
     # Initializing context for the user if it doesn't already exist
     user_contexts.setdefault(user_id, [])
 
+    if len(message.text) < 10:
+        await message.reply("Messege need to be longer than 10 symbols")
+        return
+
     user_contexts[user_id].append({"role": "user", "content": message.text})
 
     # Getting a response from AI via the send_to_aibot function
