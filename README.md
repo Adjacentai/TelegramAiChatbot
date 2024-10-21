@@ -2,7 +2,7 @@
 
 ## Description
 
-This project is a Telegram bot integrated with a local AI model launched via **Olama**. The bot accepts user messages, processes them using AI, and returns intelligent responses. It supports dialog context management and includes a reset feature through a button.
+This project is a Telegram bot integrated with a local AI model launched on **Olama**. The bot accepts user messages, processes them using AI, and returns intelligent responses. It supports dialog context management and includes a reset feature through a button.
 
 ## Features
 1. Message processing and analysis via AI.
