@@ -15,7 +15,7 @@ load_dotenv()
 API_TOKEN_TG = os.getenv('TG_API')
 
 if API_TOKEN_TG is None:
-    raise ValueError("API_TOKEN_TG не найден.")
+    raise ValueError("API_TOKEN_TG not found.")
 
 # Creating bot and dispatcher objects
 bot = Bot(token=API_TOKEN_TG)
