@@ -42,7 +42,8 @@ venv.bak/
 # Vim
 *.swp
 *.swo
-*.swn
+*.sw
+*.db
 
 # SQLite database
 *.sqlite
